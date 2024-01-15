@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>My Login Page</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="./NewPerson.css">
+</head>
+<body>	
+<div class="container ">
+<img src="./89e3d3a8a477e37adc8d4685d9561269.gif" alt="logo" style="display: flex;" width="52%" height="619px" >
+<div class="row justify-content-md-center">
+<div class="card-wrapper">
+<div class="brand">
+<img src="./book.jpg" alt="logo">
+</div>
+<div class="card-fat">
+<div class="card-body">
+<h2 style="margin-left:34%;">Sing in</h2>
+<div class="form-group">
+ENTER NAME<input  type="text" class="form-control" placeholder="Enter your username" id="username" required  >
+</div>
+<div class="form-group">
+ENTER PASSWORD  
+<a href="./BookAppLogice.html" class="float-right">FORGOT PASSWORD ?</a>
+<input type="text" class="form-control" placeholder="Enter your password" id="password" >
+</div>
+<div class="form-group">
+<div class="custom-checkbox custom-control">
+<input type="checkbox" name="remember" id="remember" class="custom-control-input">
+<span for="remember" class="custom-control-label"> I'Agree</span>
+</div>
+</div>
+<div class="form-group m-0">
+<button  class="btn btn-primary btn-block" onclick="attemptLogin()">
+SUBMIT
+</button>
+</div>
+<div class="mt-4 text-center">
+Don't have an account? <a href="./BookAppLogice.html">Create Your Account</a>
+</div>
+</div>
+</div>
+<div class="footer">
+Copyright &copy; 2024 &mdash; Your Company 
+</div>
+</div>
+</div>
+<script src="./NewPerson.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>My Login Page</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="./BookAppLogice.css">
+</head>
+<body style="background-color:#1cdbd1d9;">	
+<div class="container ">
+<div class="row justify-content-md-center">
+<div class="card-wrapper">
+<div class="brand">
+<img src="./bcb15df1559debc2d9f7dfbf5b16824f.gif" alt="logo">
+</div>
+<div class="card-fat">
+<div class="card-body">
+<h2 style="margin-left:34%;">Create Profile</h2>
+<div class="form-group">
+ENTER NAME<input  type="text" class="form-control" placeholder="Enter your username" id="username" required  >
+</div>
+<div class="form-group">
+ENTER PHONE NUMBER  
+<a href="./BookAppLogice.html" class="float-right">FORGOT PHONE NUMBER ?</a>
+<input type="number" class="form-control" placeholder="Enter Your Phone Number" id="PhoneNo" >
+</div>
+<div class="form-group">
+<div class="custom-checkbox custom-control">
+<input type="checkbox" name="remember" id="remember" class="custom-control-input">
+<span for="remember" class="custom-control-label"> I'Agree</span>
+</div>
+</div>
+<div class="form-group m-0">
+<button  class="btn btn-primary btn-block" onclick="attemptLogin()">
+SUBMIT
+</button>
+</div>
+<div class="mt-4 text-center">
+Do You have a account ? <a href="./NewPerson.html">Go Back</a>
+</div>
+</div>
+</div>
+ 
+</div>
+</div>
+<script src="./BookAppLogice.js"></script>
+</body>
+</html>
